@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ap:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-19T18:30:46.394633+09:00"
+    description: index.html in ap
+    digest: f3a28ea51e755d59fa55c37cf0be9b25470d8589df14878d27d38d928beb37a9
+    name: ap
+    type: application
+    urls:
+    - https://parksm-sre.github.io/helm-charts/stable/ap-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-19T18:30:46.392463+09:00"
