@@ -1,12 +1,12 @@
-name: myapp
-namespace: myapp
+name: test
+namespace: test
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: janakiramm/myapp
   pullPolicy: IfNotPresent
-  blue_tag: ""
-  green_tag: ""
+  blue_tag: "v1"
+  green_tag: "v2"
 
 service:
   type: ClusterIP
