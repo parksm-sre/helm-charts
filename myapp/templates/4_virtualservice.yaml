@@ -13,8 +13,8 @@ spec:
       - destination:
           host: {{ .Values.name }}
           subset: {{ .Values.image.blue_tag }}
-        weight: 100
+        weight: {{ .Values.blue_weight }}
       - destination:
           host: {{ .Values.name }}
           subset: {{ .Values.image.green_tag }}
-        weight: 0
+        weight: {{ .Values.green_weight }}

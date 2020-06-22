@@ -1,6 +1,8 @@
 name: test
 namespace: test
 replicaCount: 1
+blue_weight: 50
+green_weight: 50
 
 image:
   repository: janakiramm/myapp
