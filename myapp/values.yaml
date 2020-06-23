@@ -4,6 +4,8 @@ replicaCount: 1
 blue_weight: 50
 green_weight: 50
 
+new_version: false
+
 image:
   repository: janakiramm/myapp
   pullPolicy: IfNotPresent
