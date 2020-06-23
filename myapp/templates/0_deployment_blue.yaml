@@ -1,3 +1,4 @@
+{{- if .Values.blue_version -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -22,3 +23,4 @@ spec:
           ports:
             - name: http
               containerPort: 80
+{{ - end }}
