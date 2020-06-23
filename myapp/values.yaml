@@ -4,7 +4,7 @@ replicaCount: 1
 blue_weight: 50
 green_weight: 50
 
-new_version: false
+new_version: true
 
 image:
   repository: janakiramm/myapp
