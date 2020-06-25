@@ -3,9 +3,9 @@ namespace: test
 replicaCount: 1
 
 blue_version: true
-blue_weight: 100
-green_version: false
-green_weight: 0
+blue_weight: 50
+green_version: true
+green_weight: 50
 
 image:
   repository: janakiramm/myapp
